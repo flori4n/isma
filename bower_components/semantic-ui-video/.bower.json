@@ -1,0 +1,40 @@
+{
+  "name": "semantic-ui-video",
+  "description": "Video - Semantic UI",
+  "homepage": "http://www.semantic-ui.com",
+  "author": {
+    "name": "Jack Lukic",
+    "web": "http://www.jacklukic.com"
+  },
+  "ignore": [
+    "docs",
+    "node",
+    "server",
+    "spec",
+    "src",
+    "test"
+  ],
+  "keywords": [
+    "semantic",
+    "ui",
+    "css3",
+    "framework"
+  ],
+  "license": [
+    "http://semantic-ui.mit-license.org/"
+  ],
+  "main": [
+    "video.css"
+  ],
+  "version": "1.12.3",
+  "_release": "1.12.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.12.3",
+    "commit": "492912ddca5a3de310b62514d461f33e3ec097c0"
+  },
+  "_source": "git://github.com/Semantic-Org/UI-Video.git",
+  "_target": "~1.12.3",
+  "_originalSource": "semantic-ui-video",
+  "_direct": true
+}

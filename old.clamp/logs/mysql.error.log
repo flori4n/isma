@@ -1,0 +1,48 @@
+150813 18:16:45 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+150813 18:16:45 [Note] InnoDB: The InnoDB memory heap is disabled
+150813 18:16:45 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150813 18:16:45 [Note] InnoDB: Memory barrier is not used
+150813 18:16:45 [Note] InnoDB: Compressed tables use zlib 1.2.5
+150813 18:16:45 [Note] InnoDB: Not using CPU crc32 instructions
+150813 18:16:45 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+150813 18:16:45 [Note] InnoDB: Completed initialization of buffer pool
+150813 18:16:45 [Note] InnoDB: Highest supported file format is Barracuda.
+150813 18:16:45 [Note] InnoDB: 128 rollback segment(s) are active.
+150813 18:16:45 [Note] InnoDB: Waiting for purge to start
+150813 18:16:45 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.23-72.1 started; log sequence number 1616707
+150813 18:16:45 [Note] Server socket created on IP: '127.0.0.1'.
+150813 18:16:45 [Note] Event Scheduler: Loaded 0 events
+150813 18:16:45 [Note] /usr/local/opt/mariadb/bin/mysqld: ready for connections.
+Version: '10.0.19-MariaDB'  socket: '/Users/florian/Sites/isma/.clamp/tmp/mysql.sock'  port: 3306  Homebrew
+150813 19:18:09 [Note] /usr/local/opt/mariadb/bin/mysqld: Normal shutdown
+
+150813 19:18:09 [Note] Event Scheduler: Purging the queue. 0 events
+150813 19:18:09 [Note] InnoDB: FTS optimize thread exiting.
+150813 19:18:09 [Note] InnoDB: Starting shutdown...
+150813 19:18:10 [Note] InnoDB: Shutdown completed; log sequence number 1616717
+150813 19:18:10 [Note] /usr/local/opt/mariadb/bin/mysqld: Shutdown complete
+
+150813 19:19:23 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+150813 19:19:23 [Note] InnoDB: The InnoDB memory heap is disabled
+150813 19:19:23 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150813 19:19:23 [Note] InnoDB: Memory barrier is not used
+150813 19:19:23 [Note] InnoDB: Compressed tables use zlib 1.2.5
+150813 19:19:23 [Note] InnoDB: Not using CPU crc32 instructions
+150813 19:19:23 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+150813 19:19:23 [Note] InnoDB: Completed initialization of buffer pool
+150813 19:19:23 [Note] InnoDB: Highest supported file format is Barracuda.
+150813 19:19:23 [Note] InnoDB: 128 rollback segment(s) are active.
+150813 19:19:23 [Note] InnoDB: Waiting for purge to start
+150813 19:19:23 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.23-72.1 started; log sequence number 1616717
+150813 19:19:23 [Note] Server socket created on IP: '127.0.0.1'.
+150813 19:19:23 [Note] Event Scheduler: Loaded 0 events
+150813 19:19:23 [Note] /usr/local/opt/mariadb/bin/mysqld: ready for connections.
+Version: '10.0.19-MariaDB'  socket: '/Users/florian/Sites/ismaelk/wp-content/themes/isma/.clamp/tmp/mysql.sock'  port: 3306  Homebrew
+150813 19:21:45 [Note] /usr/local/opt/mariadb/bin/mysqld: Normal shutdown
+
+150813 19:21:45 [Note] Event Scheduler: Purging the queue. 0 events
+150813 19:21:45 [Note] InnoDB: FTS optimize thread exiting.
+150813 19:21:45 [Note] InnoDB: Starting shutdown...
+150813 19:21:47 [Note] InnoDB: Shutdown completed; log sequence number 1616727
+150813 19:21:47 [Note] /usr/local/opt/mariadb/bin/mysqld: Shutdown complete
+

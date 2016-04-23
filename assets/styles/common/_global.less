@@ -1,0 +1,169 @@
+.ui.attached.segment {
+    border: 0;
+}
+
+/* LESS - http://lesscss.org style sheet */
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=50E1c0k--td9lZa0YAG+N4nWV04 */
+
+/* Feel free to copy&paste color codes to your application */
+
+
+/* MIXINS */
+
+/* As hex codes */
+@color-primary-bright: #F1F2F1;
+@color-primary-dark: gray;
+
+@color-secondary-bright: #F1F2F1;
+@color-secondary-dark: gray;
+
+@color-third-bright: #F1F2F1;
+@color-third-dark: gray;
+
+
+@color-0: #F1F2F1;	/*  blanc */
+@color-1: #1b1c1d;	/*  noir */
+@color-2: #f82faf; /* rose */
+@color-3: #34262b; /* violet foncé*/
+@color-4: #3f3536; /* violet moins foncé*/
+
+@color-link : @color-2;
+
+@font-max-size: 3.3em;
+@font-big-size: 3em;
+@font-med-size: 26pt;
+@font-default-size: 1.2em;
+
+@font-titles : 'cool';
+@font-main :  Arial, Helvetica, sans-serif;
+@font-title-letter-spacing : 5px;
+@font-main-letter-spacing : 0px;
+
+@main-color-website:#F82FAF; /*pink*/
+body {
+    margin: 0em;
+    font-family: @font-main;
+    letter-spacing : @font-main-letter-spacing;
+    font-weight: normal;
+    font-size: @font-default-size;
+}
+p {
+    margin: 1em auto;
+}
+
+.font-color-2 {
+	color: @color-2;
+} 
+
+body, * {
+	.bg-0,
+	.bg-0 *:not(a){
+		background-color: @color-0!important;
+		color: @color-1!important;
+	}
+	.bg-1,
+	.bg-1 *:not(a){
+		background-color: @color-1!important;
+		color: @color-0!important;
+	}
+	.bg-3,
+	.bg-3 *:not(a){
+		background-color: @color-3!important;
+		color: @color-1!important;
+	}
+	
+} 
+	
+
+a{
+	color: @color-link;
+	font-size: @font-default-size;
+	/*font-family: @font-main; */
+    letter-spacing : @font-main-letter-spacing;
+    font-weight: normal;
+}
+
+a:hover {
+	color: @color-link;
+	text-decoration: underline;
+}
+
+h1.ui.header,
+h1.ui.centered.header{
+	&.dark {
+		color: @color-1;
+	}
+	&.bright {
+		color: @color-0;
+	}
+	font-size: @font-max-size;
+	@media all and (max-width:631px){
+		font-size: @font-max-size - 1em;
+	}
+	font-family: @font-titles;
+	letter-spacing : @font-title-letter-spacing;
+}
+
+.text-shadow {
+	 text-shadow: 0px 1px 3px black;
+}
+
+h2.ui.header,
+h2.ui.centered.header{
+	&.dark {
+		color: @color-1;
+	}
+	&.bright {
+		color: @color-0;
+	}
+	font-size:@font-big-size;
+	@media all and (max-width:631px){
+		font-size: @font-big-size - 1em;
+	}
+	font-family: @font-titles;
+	letter-spacing : @font-title-letter-spacing/2;
+	padding-top: 55px;
+	padding-bottom: 20px;
+}
+
+h3{
+		font-size: @font-med-size;
+		@media all and (max-width:631px){
+			font-size: @font-med-size - 0.8em;
+		}
+		padding:15px 0 15px 0!important;
+		font-family: @font-titles;
+		letter-spacing : @font-title-letter-spacing/2;
+}
+
+.main-font-color {
+	color:@main-color-website;
+
+}
+
+.bright,
+.txt-white {
+	color: @color-0;
+	&h1{
+		color: @color-0;
+	}
+	&h2{
+		color: @color-0;
+	}
+}
+
+.ui.fixed.sticky + p {
+  margin-top: 39px;
+}
+
+/*
+@media all and (min-width:631px){
+	h1.ui.centered.header {
+		font-size: @font-max-size - 2em;
+	}
+	h2 {}
+	h3 {}   
+
+}*/
+

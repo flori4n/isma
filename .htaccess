@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?main\-domain.com$ [NC]
+RewriteCond %{REQUEST_URI} !^/sub\-folder/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /sub-folder/$1
+RewriteCond %{HTTP_HOST} ^(www.)?main\-domain.com$ [NC]
+RewriteRule ^(/)?$ sub-folder/index.php [L]
