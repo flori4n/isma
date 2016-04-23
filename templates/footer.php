@@ -2,7 +2,7 @@
 	<div class="ui centered grid bg-3">
 		<div class="twelve wide column">
 			<br>
-			<h2 class="ui aligned center inverted header">
+			<h2 class="ui aligned medium center inverted header">
 				<div class="content">
 					<i>GARDONS CONTACT</i><br><br>
 					<b>C'est ici que cela se passe</b>
@@ -16,12 +16,12 @@
 	</div>
 	<div class="ui stackable four column grid bg-1 margin-big">
 		<div class="column">
-			<h2 class="ui center aligned icon inverted header">
-				<i class="circular home icon main-font-color "></i>
+			<h2 class="ui center medium aligned icon inverted header">
+				<i class="circular home icon main-font-color inverted"></i>
 				<div class="content">
 					Adresse de l'école
 					<div class="sub header"><br>
-						<a target="_blank" href="https://www.google.ch/maps/place/Caf%C3%A9+Julienne/@46.1697515,6.1198219,15z/data=!4m2!3m1!1s0x0:0x5072048b725adc3d">Café Julienne</a><br>
+						<a target="_blank" href="https://www.google.ch/maps/place/Caf%C3%A9+Julienne/@46.1697515,6.1198219,15z/data=!4m2!3m1!1s0x0:0x5072048b725adc3d">Café Julienne <i class="marker icon small aligned"></i></a><br>
 						Route de Saint-Julien 116<br>
 						1228 Plan-les-Ouates<br>
 						Genève, Suisse
@@ -30,7 +30,7 @@
 			</h2>
 		</div>
 		<div class="column">
-			<h2 class="ui center aligned icon inverted header">
+			<h2 class="ui center medium aligned icon inverted header">
 				<i class="circular call icon main-font-color "></i>
 				<div class="content">
 					Téléphone
@@ -39,7 +39,7 @@
 			</h2>
 		</div>
 		<div class="column">
-			<h2 class="ui center aligned icon inverted header">
+			<h2 class="ui center medium aligned icon inverted header">
 				<i class="circular envelope icon main-font-color"></i>
 				<div class="content">
 					Email
@@ -54,7 +54,7 @@ document.write('<'+'a hr'+'ef="' + o + z + '">'+z+'</'+'a>');
 			</h2>
 		</div>
 		<div class="column">
-			<h2 class="ui center aligned icon inverted header">
+			<h2 class="ui center medium aligned icon inverted header">
 				<i class="circular facebook icon main-font-color"></i>
 				<div class="content">
 					Facebook
