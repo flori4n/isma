@@ -35,10 +35,9 @@ document.write('<'+'a hr'+'ef="' + o + z + '">'+z+'</'+'a>');
 // ]]&gt;</script>
 			</div>
 			<div class="column">
-				<i class="facebook icon"></i>
-				<a href="https://www.facebook.com/ismaelk.saxo">facebook.com/ismaelk.saxo</a>
+				<i class="facebook icon"></i><a href="https://www.facebook.com/ismaelk.saxo">ismaelk.saxo</a>
 			</div>
-		</div>		
+		</div>
 	</div>
 	<br>
 	<br>
