@@ -65,7 +65,8 @@
                 // JavaScript to be fired on the about us page
             }
         },
-        'evenements' : {
+        
+        'prestations-organisation' : {
             init: function() {
                 $('#play-video-dorien').on('click',function(e){
                     e.preventDefault();
