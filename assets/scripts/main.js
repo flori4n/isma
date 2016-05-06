@@ -66,7 +66,7 @@
             }
         },
         
-        'prestations-organisation' : {
+        'services-organisation' : {
             init: function() {
                 $('#play-video-dorien').on('click',function(e){
                     e.preventDefault();
