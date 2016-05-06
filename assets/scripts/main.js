@@ -65,9 +65,10 @@
                 // JavaScript to be fired on the about us page
             }
         },
-        
+
         'services-organisation' : {
             init: function() {
+                alert("test");
                 $('#play-video-dorien').on('click',function(e){
                     e.preventDefault();
                     $('#video-dorien').video();
