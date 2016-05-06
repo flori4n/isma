@@ -20,7 +20,7 @@ $sage_includes = [
   'lib/extras.php',                // Custom functions
 ];
 
-pll_register_string('titre', 'Boostez vos événements');
+pll_register_string('main-title', 'Boost Your Events');
 
 foreach ($sage_includes as $file) {
   if (!$filepath = locate_template($file)) {
