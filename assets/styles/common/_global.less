@@ -128,14 +128,21 @@ h2.ui.centered.header{
 	padding-bottom: 20px;
 }
 
+h3 a,
 h3{
-		font-size: @font-med-size;
-		@media all and (max-width:631px){
-			font-size: @font-med-size - 0.8em;
-		}
-		padding:15px 0 15px 0!important;
-		font-family: @font-titles;
-		letter-spacing : @font-title-letter-spacing/2;
+	font-size: @font-med-size;
+	@media all and (max-width:631px){
+		font-size: @font-med-size - 0.8em;
+	}
+	padding:15px 0 15px 0!important;
+	font-family: @font-titles;
+	letter-spacing : @font-title-letter-spacing/2;
+	.dark {
+		color: @color-1;
+	}
+	&.bright {
+		color: @color-0;
+	}
 }
 
 .main-font-color {
@@ -150,6 +157,9 @@ h3{
 		color: @color-0;
 	}
 	&h2{
+		color: @color-0;
+	}
+	&h3{
 		color: @color-0;
 	}
 }
