@@ -3,12 +3,12 @@
  * Template Name: Landing page
  */
 ?>
-<div id="nd-vibackgroudeo" >
+<div id="nd-vibackgroudeo" class="bg-1" >
     <div id="the-video" style="width: 100%; height:600px;" class="" 
       data-vide-bg="mp4:<?php echo get_stylesheet_directory_uri(); ?>/assets/videos/video-snk-2.mp4, poster: <?php echo get_stylesheet_directory_uri(); ?>/assets/images/cover.png"
       data-vide-options="posterType: png, loop: true, muted: true, resizing: true, position: 50% 50%">
-      <br>
-      <br>
+      <br>&nbsp;
+      <br>&nbsp;
       <div class="ui centered header" >
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-isma-testw.png" class="ui large image" />
       </div>
