@@ -68,7 +68,6 @@
 
         'services-organisation' : {
             init: function() {
-                alert("test");
                 $('#play-video-dorien').on('click',function(e){
                     e.preventDefault();
                     $('#video-dorien').video();
