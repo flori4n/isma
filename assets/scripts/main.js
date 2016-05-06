@@ -68,18 +68,7 @@
 
         'services-organisation' : {
             init: function() {
-                $('#play-video-dorien').on('click',function(e){
-                    e.preventDefault();
-                    $('#video-dorien').video();
-                    $('#video-dorien').toggle();
-                });
-                $('#play-video-mathieu').on('click',function(e){
-                    e.preventDefault();
-                    $('#video-mathieu').video();
-                    $('#video-mathieu').toggle();
-                });
-                //$('.ui.video').video();
-                $('#video-snk').video();
+                
             }
         }
     };
@@ -124,7 +113,18 @@
         $('#m_menu').sidebar('toggle');
     });
 
-    
+    $('#play-video-dorien').on('click',function(e){
+                    e.preventDefault();
+                    $('#video-dorien').video();
+                    $('#video-dorien').toggle();
+                });
+                $('#play-video-mathieu').on('click',function(e){
+                    e.preventDefault();
+                    $('#video-mathieu').video();
+                    $('#video-mathieu').toggle();
+                });
+                //$('.ui.video').video();
+                $('#video-snk').video();
     /*function hefct() {
         var scrollPosition = jQuery(window).scrollTop();
         jQuery('#header-image').css('top', (0 - (scrollPosition * 0.2)) + 'px');
