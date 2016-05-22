@@ -5,7 +5,7 @@
 ?>
 
 <div id="background-video" >
-    <div id="the-video-background" style="width: 100%; height:600px;" class="" data-vide-bg="mp4:<?php echo get_stylesheet_directory_uri(); ?>/assets/videos/video-snk-2.mp4, poster: http://www.ismaelk.com/wp-content/uploads/2016/05/DSC_8971-e1463921615102.jpg" data-vide-options="posterType: png, loop: true, muted: true, resizing: true, position: 50% 50%">
+    <div id="the-video-background" style="width: 100%; height:600px;" class="" data-vide-bg="mp4:<?php echo get_stylesheet_directory_uri(); ?>/assets/videos/video-snk-2.mp4; poster: http://www.ismaelk.com/wp-content/uploads/2016/05/DSC_8971-e1463921615102.jpg" data-vide-options="posterType: png, loop: true, muted: true, resizing: true, position: 50% 50%">
         <br>
         <br>
         <div class="ui centered header" >
