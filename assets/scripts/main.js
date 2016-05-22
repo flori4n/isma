@@ -28,7 +28,7 @@
         'home': {
             init: function() {
 
-                $('#the-video-backgroundo').vide({
+                $('#the-video-background').vide({
                     mp4: 'http://www.ismaelk.com/wp-content/themes/ismaelk/assets/videos/video-snk-2.mp4',
                     poster: 'http://www.ismaelk.com//wp-content/uploads/2016/05/DSC_8971-e1463921615102.jpg'
                 }, {
