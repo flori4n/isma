@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Landing page
+* Template Name: Landing french
 */
 ?>
 
@@ -11,7 +11,7 @@
         <div class="ui centered header" >
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-isma-testw.png" class="ui large image" />
         </div>
-        <h1 class="ui centered header text-shadow bright" >Boost Your Events</h1>
+        <h1 class="ui centered header text-shadow bright" >Boostez vos événements</h1>
         <div id="home-bottom-icon" class="ui stackable center aligned page grid">
             <i class="massive angle down icon bright"></i>
         </div>
