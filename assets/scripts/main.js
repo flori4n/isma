@@ -28,9 +28,9 @@
         'home': {
             init: function() {
 
-                $('#background-video').vide({
-                    mp4: './wp-content/themes/ismaelk/assets/videos/video-snk-2.mp4',
-                    poster: './wp-content/themes/ismaelk/assets/images/cover.png'
+                $('#the-video-backgroundo').vide({
+                    mp4: 'http://www.ismaelk.com/wp-content/themes/ismaelk/assets/videos/video-snk-2.mp4',
+                    poster: 'http://www.ismaelk.com//wp-content/uploads/2016/05/DSC_8971-e1463921615102.jpg'
                 }, {
                     volume: 1,
                     playbackRate: 1,
@@ -38,12 +38,12 @@
                     loop: true,
                     autoplay: true,
                     position: '50% 50%', // Similar to the CSS `background-position` property.
-                    posterType: 'png', // Poster image type. "detect" — auto-detection; "none" — no poster; "jpg", "png", "gif",... - extensions.
+                    posterType: 'jpg', // Poster image type. "detect" — auto-detection; "none" — no poster; "jpg", "png", "gif",... - extensions.
                     resizing: true // Auto-resizing, read: https://github.com/VodkaBears/Vide#resizing
                 });
 
                 // Get instance of the plugin
-                var instance = $('#background-video').data('vide');
+                var instance = $('#the-video-background').data('vide');
 
                 // Get video element of the background. Do what you want.
                 instance.getVideoObject();
@@ -68,7 +68,7 @@
 
         'services-organisation' : {
             init: function() {
-                
+
             }
         }
     };
@@ -130,14 +130,14 @@
         jQuery('#header-image').css('top', (0 - (scrollPosition * 0.2)) + 'px');
     }
 
-            
+
         $(window).bind('scroll', function() {
             //hefct();
             var scrollPosition = $(window).scrollTop();
             $('#full-content').css('top', (0 - (scrollPosition * 0.7)) + 'px');
             $('#background-video').css('top', ((scrollPosition * 0.5)) + 'px');
             $('#context').css('top', (0 - (scrollPosition * 0.7)) + 'px');
-        });     
+        });
 */
    // $('#saxo-training').parallax("center", 0.2, 400, true);
     $.stellar();
