@@ -28,7 +28,7 @@
         'home': {
             init: function() {
 
-                $('#the-video-background').vide({
+                $('#background-video').vide({
                     mp4: 'http://www.ismaelk.com/wp-content/themes/ismaelk/assets/videos/video-snk-2.mp4',
                     poster: 'http://www.ismaelk.com//wp-content/uploads/2016/05/DSC_8971-e1463921615102.jpg'
                 }, {
@@ -43,7 +43,7 @@
                 });
 
                 // Get instance of the plugin
-                var instance = $('#the-video-background').data('vide');
+                var instance = $('#background-video').data('vide');
 
                 // Get video element of the background. Do what you want.
                 instance.getVideoObject();
